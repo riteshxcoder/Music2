@@ -1,0 +1,100 @@
+/* 🎨 Stylish Background */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url('https://source.unsplash.com/1600x900/?music,concert') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* 🎶 Music Player Container */
+.container {
+    width: 450px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* 🎧 Music Player */
+.player iframe {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+}
+
+/* 🔍 Search Bar */
+#search {
+    width: 80%;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* 🎶 Song List */
+#song-list {
+    list-style: none;
+    padding: 0;
+    max-height: 200px;
+    overflow-y: auto;
+    margin-top: 10px;
+}
+
+#song-list li {
+    padding: 12px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 5px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: 0.3s;
+}
+
+#song-list li:hover {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+#song-list li img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+/* 🎚 Controls */
+.controls button {
+    background: #00ffcc;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.controls button:hover {
+    background: #008f99;
+}
+
+/* 🌗 Dark Mode Toggle */
+#toggle-theme {
+    margin-top: 15px;
+    padding: 12px;
+    cursor: pointer;
+    background: #f1c40f;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
