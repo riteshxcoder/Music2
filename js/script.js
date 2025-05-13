@@ -1,5 +1,5 @@
 // 🎵 Base64 Encoded API Key (Secure)
-const encodedKey = "QUl6YVN5QlJ1azFZZTVZSU45dnIzMndFWnpnUXg4cEFNamVVTElZ";  // Replace with your Base64-encoded API Key
+const encodedKey = "apna api dalo";  // Replace with your Base64-encoded API Key
 const API_KEY = atob(encodedKey);  // Decode API Key
 
 let currentSongIndex = 0;
